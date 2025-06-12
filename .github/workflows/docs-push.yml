@@ -10,8 +10,6 @@ on:
       - stable-*
     tags:
       - "*"
-  schedule:
-    - cron: "0 12 * * *"
 
 jobs:
   build-docs:
